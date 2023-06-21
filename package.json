@@ -1,10 +1,11 @@
 {
   "name": "newslettersignup",
   "version": "1.0.0",
-  "description": "Newsletter SignUp using Mailchimp ",
+  "description": "Newsletter SignUp using Mailchimp",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "echo 'No build necessary'",
+    "start": "node app.js"
   },
   "author": "Rahul Naik",
   "license": "ISC",
