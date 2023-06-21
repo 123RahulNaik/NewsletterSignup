@@ -31,7 +31,7 @@ app.post('/', function (req, res) {
   };
 
   const jsonData = JSON.stringify(data); // Converting the data object to JSON string
-  const apiKey = '9c9498304b4eec2d833dfd0ad7e9afca-us9'; // API key for authentication
+  const apiKey = process.env.MAILCHIMP_API_KEY; // API key for authentication
   const listId = '24de4cc4c7'; // ID of the mailing list
   const url = `https://us9.api.mailchimp.com/3.0/lists/${listId}`; // MailChimp API URL
   const options = {
